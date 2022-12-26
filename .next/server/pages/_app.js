@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 // import '../styles/globals.css'
 
 function App({ Component , pageProps  }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Component, {
         ...pageProps
     });
 }
