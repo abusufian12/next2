@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Hello World 5
+            Hello World 6
           </p>
           <div>
             <a
