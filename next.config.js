@@ -27,7 +27,6 @@ const nextConfig = {
       'i.pravatar.cc',
       '54.176.76.150',
       '178.63.22.27',
-      '35.78.118.250',
     ],
   },
   ...(process.env.FRAMEWORK_PROVIDER === 'graphql' && {
