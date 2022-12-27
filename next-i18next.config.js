@@ -11,9 +11,9 @@ const isMultilangEnable =
   process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'false' ;
 
 function generateLocales() {
-  if (isMultilangEnable) {
-    return process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES.split(',');
-  }
+  // if (isMultilangEnable) {
+  //   return process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES.split(',');
+  // }
 
   return [process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE];
 }
