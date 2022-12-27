@@ -6,8 +6,8 @@
 // module.exports = nextConfig
 
 
-const withPWA = require('next-pwa');
-const runtimeCaching = require('next-pwa/cache');
+//const withPWA = require('next-pwa');
+//const runtimeCaching = require('next-pwa/cache');
 const { i18n } = require('./next-i18next.config');
 const nextConfig = {
   reactStrictMode: true,
@@ -16,7 +16,7 @@ const nextConfig = {
   pwa: {
     disable: process.env.NODE_ENV === 'development',
     dest: 'public',
-    runtimeCaching,
+    //runtimeCaching,
   },
   images: {
     domains: [
@@ -57,4 +57,5 @@ const nextConfig = {
   }),
 };
 
-module.exports = withPWA(nextConfig);
+module.exports = nextConfig;
+//module.exports = withPWA(nextConfig);
