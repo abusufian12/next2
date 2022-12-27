@@ -6,17 +6,17 @@
 //   'NEXT_PUBLIC_DEFAULT_LANGUAGE is required, but not set, check your .env file'
 // );
 
-const isMultilangEnable =
+//const isMultilangEnable =
   //process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'true' &&  !!process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES;
-  process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'false' ;
+//  process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'false' ;
 
-function generateLocales() {
+//function generateLocales() {
   // if (isMultilangEnable) {
   //   return process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES.split(',');
   // }
 
-  return [process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE];
-}
+//  return [process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE];
+//}
 
 module.exports = {
   i18n: {
