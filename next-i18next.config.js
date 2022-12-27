@@ -1,10 +1,10 @@
-const invariant = require('tiny-invariant');
-const path = require('path');
+// const invariant = require('tiny-invariant');
+// const path = require('path');
 
-invariant(
-  process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE,
-  'NEXT_PUBLIC_DEFAULT_LANGUAGE is required, but not set, check your .env file'
-);
+// invariant(
+//   process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE,
+//   'NEXT_PUBLIC_DEFAULT_LANGUAGE is required, but not set, check your .env file'
+// );
 
 const isMultilangEnable =
   //process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'true' &&  !!process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES;
