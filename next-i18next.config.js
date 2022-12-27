@@ -20,8 +20,8 @@
 
 module.exports = {
   i18n: {
-    defaultLocale: process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE,
-    locales: [process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE],
+    defaultLocale: "en",
+    locales: ["en"],
     localeDetection: false
   }
   //localePath: path.resolve('./public/locales'),
