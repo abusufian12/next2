@@ -7,8 +7,8 @@ invariant(
 );
 
 const isMultilangEnable =
-  process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'true' &&
-  !!process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES;
+  //process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'true' &&  !!process.env.NEXT_PUBLIC_AVAILABLE_LANGUAGES;
+  process.env.NEXT_PUBLIC_ENABLE_MULTI_LANG === 'false' ;
 
 function generateLocales() {
   if (isMultilangEnable) {
@@ -24,6 +24,6 @@ module.exports = {
     locales: generateLocales(),
     localeDetection: isMultilangEnable,
   },
-  //localePath: path.resolve('./public/locales'),
-  //reloadOnPrerender: process.env.NODE_ENV === 'development',
+  localePath: path.resolve('./public/locales'),
+  reloadOnPrerender: process.env.NODE_ENV === 'development',
 };
