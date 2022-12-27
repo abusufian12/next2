@@ -23,7 +23,7 @@ module.exports = {
     defaultLocale: process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE ?? "en",
     locales: [process.env.NEXT_PUBLIC_DEFAULT_LANGUAGE],
     localeDetection: false
-  },
+  }
   //localePath: path.resolve('./public/locales'),
   //reloadOnPrerender: process.env.NODE_ENV === 'development',
 };
